@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Typography & reusable utilities */
+:root {
+  --brand-blue: #2563EB;
+  --brand-light: #DBEAFE;
+}
+
+.gradient-card {
+  @apply bg-white rounded-2xl shadow-xl border border-blue-100;
+}
+
+.btn-primary {
+  @apply bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl px-5 py-3 transition-colors shadow-soft;
+}
+
+.input {
+  @apply w-full rounded-xl border border-blue-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 px-4 py-3 outline-none transition;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full px-3 py-1 text-sm font-medium;
+}

@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-multipart
+PyPDF2
+openai
+requests
+python-dotenv
+python-jose[cryptography]
